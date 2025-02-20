@@ -8,7 +8,7 @@
  */
 export const Configs =
 {
-	APP_NAME: 'Example App',
+	APP_NAME: 'Team',
 
 	/**
 	 * This will set the base URL for the app.
@@ -17,8 +17,8 @@ export const Configs =
 	 */
 	router:
 	{
-		baseUrl: '/base-update/',
-		title: 'Example'
+		baseUrl: '/team/',
+		title: 'Team'
 	},
 
 	/**
@@ -27,19 +27,5 @@ export const Configs =
 	 *
 	 * @type {boolean} useShortNav
 	 */
-	useShortNav: true,
-
-	/**
-	 * The push settings.
-	 */
-	push: {
-		publicId: ''
-	},
-
-	/**
-	 * This will set the API endpoints for the user status.
-	 *
-	 * @type {string} userStatusApi
-	 */
-	userStatusApi: '/api/use/status',
+	useShortNav: true
 };

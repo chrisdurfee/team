@@ -1,6 +1,5 @@
 import { State } from "@base-framework/base";
 import { Configs } from "./configs.js";
-import { Push } from "./shell/push/push.js";
 
 /**
  * @type {string} protocol
@@ -47,18 +46,6 @@ const setupServiceMessages = (serviceWorker) =>
 };
 
 /**
- * This will setup the push notifications.
- *
- * @param {object} serviceWorker
- * @param {string} pushId
- * @returns {object}
- */
-const setupPush = (serviceWorker, pushId) =>
-{
-	return new Push(pushId, serviceWorker);
-};
-
-/**
  * This will setup the service worker.
  *
  * @returns {void}
@@ -77,10 +64,5 @@ export const setupServiceWorker = () =>
 	}).then((serviceWorker) =>
 	{
 		setupServiceMessages(serviceWorker)
-
-		if (Configs.push && Configs.push.publicId)
-		{
-			setupPush(serviceWorker, Configs.push.publicId);
-		}
 	});
 }
