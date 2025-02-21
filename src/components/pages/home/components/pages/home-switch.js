@@ -20,6 +20,7 @@ const Page = (url, title, importCallback) => ({
  */
 export const HomeSwitch = (basePath) => ([
 	Page(`${basePath}`, 'Introduction', import('./introduction/intro-page.js')),
+	Page(`${basePath}/mission`, 'Mission', import('./mission/mission-page.js'))
 ]);
 
 export default HomeSwitch;

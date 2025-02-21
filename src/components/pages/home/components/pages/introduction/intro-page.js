@@ -12,7 +12,7 @@ export const IntroPage = () => (
 	DocPage(
 		{
             title: 'Introduction',
-            description: `Welcome to the Product Department at DentalQore! We are excited to have you join our team. This document aims to provide you with an overview of our department's expectations, culture, goals, mission, and processes. It will serve as a guide to help you understand your role and responsibilities as a member of the team.
+            description: `Welcome to the Product Department! We are excited to have you join our team. This document aims to provide you with an overview of our department's expectations, culture, goals, mission, and processes. It will serve as a guide to help you understand your role and responsibilities as a member of the team.
 
 We strive to ship fast, iterate often, and solve actual problems to create innovative solutions.`,
         },

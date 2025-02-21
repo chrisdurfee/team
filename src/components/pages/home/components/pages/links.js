@@ -11,6 +11,10 @@ export const Links = (path) => ([
 		exact: true
 	},
 	{
+		href: `${path}/mission`,
+		label: 'Mission'
+	},
+	{
 		href: `${path}/get-started`,
 		label: 'Get Started'
 	},
