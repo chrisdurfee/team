@@ -23,7 +23,7 @@ const DynamicRoute = (uri, callBack, title, persist = false) =>
  * @return {Array<object>}
  */
 export const Routes = () => [
-	DynamicRoute('/', () => import('../components/pages/home/home-page.js'), 'Example'),
+	DynamicRoute('/', () => import('../components/pages/home/components/pages/home-page.js'), 'Example'),
 
 	/**
 	 * Music routes
