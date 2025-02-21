@@ -15,6 +15,14 @@ export const Links = (path) => ([
 		label: 'Mission'
 	},
 	{
+		href: `${path}/personality`,
+		label: 'Personality'
+	},
+	{
+		href: `${path}/goals`,
+		label: 'Goals'
+	},
+	{
 		href: `${path}/get-started`,
 		label: 'Get Started'
 	},
