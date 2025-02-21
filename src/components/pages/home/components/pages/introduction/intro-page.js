@@ -54,7 +54,7 @@ We strive to ship fast, iterate often, and solve actual problems to create innov
 					]),
 					Div([
 						Span({ class: 'text-lg' }, 'Deliver quality: '),
-						P({ class: 'text-muted-foreground' }, 'Strive to produce high-quality work and maintain the standards set by the department. Ensure that every aspect of the product, from design to implementation, meets our quality benchmarks and exceeds client expectations.')
+						P({ class: 'text-muted-foreground' }, 'Strive to produce high-quality work and maintain the standards set by the department. Ensure that every aspect of the product, from design to implementation, meets our quality benchmarks and exceeds client expectations. We have four pillars to our code quality: resiliency, scalability, maintainability, and security.')
 					])
 				])
 			]),
