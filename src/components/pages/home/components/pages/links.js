@@ -19,109 +19,80 @@ export const Links = (path) => ([
 		label: 'Personality'
 	},
 	{
-		href: `${path}/goals`,
-		label: 'Goals'
+		group: 'Expectations',
+		options: [
+			{
+				href: `${path}/goals`,
+				label: 'Goals'
+			},
+			{
+				label: 'Positions',
+				options: [
+				{
+					label: 'CTO',
+					href: `${path}/positions/cto`
+				},
+				{
+					label: 'Director',
+					href: `${path}/positions/director`
+				},
+				{
+					label: 'Project Manager',
+					href: `${path}/positions/project-manager`
+				},
+				{
+					label: 'Product Manager',
+					href: `${path}/positions/product-manager`
+				},
+				{
+					label: 'Software Designer',
+					href: `${path}/positions/software-designer`
+				},
+				{
+					label: 'Software Engineer',
+					href: `${path}/positions/software-engineer`
+				},
+				{
+					label: 'DevOps Engineer',
+					href: `${path}/positions/devops-engineer`
+				},
+				{
+					label: 'SecOps Engineer',
+					href: `${path}/positions/secops-engineer`
+				},
+				{
+					label: 'Software Architect',
+					href: `${path}/positions/software-architect`
+				},
+				{
+					label: 'Data Scientist',
+					href: `${path}/positions/data-scientist`
+				},
+				{
+					label: 'System Engineer',
+					href: `${path}/positions/system-engineer`
+				},
+				{
+					label: 'QA Engineer',
+					href: `${path}/positions/qa-engineer`
+				}
+			]
+		}]
 	},
 	{
-		href: `${path}/get-started`,
-		label: 'Get Started'
-	},
-	{
-		href: `${path}/theme`,
-		label: 'Theme',
-		exact: true
-	},
-	{
-		href: `${path}/icons`,
-		label: 'Icons'
-	},
-	{
-		group: 'Components',
-		options:
-		[
+		group: 'Processes',
+		options: [
 			{
-				label: 'Buttons',
-				href: `${path}/components/buttons`
+				href: `${path}/processes/end-to-end-development`,
+				label: 'End-to-End Development'
 			},
 			{
-				label: 'Badges',
-				href: `${path}/components/badges`
+				href: `${path}/processes/security/information-security-plan`,
+				label: 'Information Security Plan'
 			},
 			{
-				label: 'Tabs',
-				href: `${path}/components/tabs`
-			},
-			{
-				label: 'Modals',
-				href: `${path}/components/modals`
-			},
-			{
-				label: 'Notifications',
-				href: `${path}/components/notifications`
-			},
-			{
-				label: 'Dialogs',
-				href: `${path}/components/dialogs`
-			},
-			{
-				label: 'Cards',
-				href: `${path}/components/cards`
-			},
-			{
-				label: 'Calendars',
-				href: `${path}/components/calendars`
-			},
-			{
-				label: 'Avatars',
-				href: `${path}/components/avatars`
-			},
-			{
-				label: 'Inputs',
-				href: `${path}/components/inputs`
-			},
-			{
-				label: 'Forms',
-				href: `${path}/components/forms`
-			},
-			{
-				label: 'Alerts',
-				href: `${path}/components/alerts`
-			},
-			{
-				label: 'Comboboxes',
-				href: `${path}/components/comboboxes`
-			},
-			{
-				label: 'Lists',
-				href: `${path}/components/lists`
-			},
-			{
-				label: 'Data Tables',
-				href: `${path}/components/data-tables`
-			},
-			{
-				label: 'Breadcrumbs',
-				href: `${path}/components/breadcrumbs`
-			},
-			{
-				label: 'Navigations',
-				href: `${path}/components/navigations`
-			},
-			{
-				label: 'Progress Bars',
-				href: `${path}/components/progress-bars`
-			},
-			{
-				label: 'Skeletons',
-				href: `${path}/components/skeletons`
-			},
-			{
-				label: 'Tooltips',
-				href: `${path}/components/tooltips`
-			},
-			{
-				label: 'Dropdown Menus',
-				href: `${path}/components/dropdown-menus`
+				href: `${path}/processes/security/product-security`,
+				label: 'Product Security'
 			}
 		]
 	}

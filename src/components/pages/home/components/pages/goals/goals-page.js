@@ -43,11 +43,6 @@ export const GoalsPage = () => (
 					Li([
 						Span({ class: 'text-lg font-bold' }, 'Maintain a strong focus on client satisfaction: '),
 						P({ class: 'text-muted-foreground' }, "Develop a deep understanding of our clients' needs, preferences, and pain points, and use this insight to tailor our solutions accordingly. Ensure prompt and professional communication with clients, actively seeking their feedback and incorporating it into our development process.")
-					]),
-					// Promote a diverse and inclusive work environment
-					Li([
-						Span({ class: 'text-lg font-bold' }, 'Promote a diverse and inclusive work environment: '),
-						P({ class: 'text-muted-foreground' }, "Develop a deep understanding of our clients' needs, preferences, and pain points, and use this insight to tailor our solutions accordingly. Ensure prompt and professional communication with clients, actively seeking their feedback and incorporating it into our development process.")
 					])
 				])
 			])
