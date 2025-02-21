@@ -95,5 +95,14 @@ export const Links = (path) => ([
 				label: 'Product Security'
 			}
 		]
+	},
+	{
+		group: 'Skills',
+		options: [
+			{
+				href: '${path}/skills/developer',
+				label: 'Developer'
+			}
+		]
 	}
 ]);
