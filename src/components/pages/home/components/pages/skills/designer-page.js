@@ -17,160 +17,133 @@ export const DesignerSkillsPage = () => (
 We've compiled a list of key concepts and resources, grouped into categories, that designers can use to expand their knowledge and improve their abilities. By focusing on these areas, designers can enhance their creative proficiency and contribute more effectively to our projects and products.`
 		},
 		[
-			// Core Development Concepts
+			// Core Design Concepts
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-2xl font-bold" }, "Core Development Concepts"),
-			]),
-
-			// Coding
-			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Coding"),
+				H4({ class: "text-2xl font-bold" }, "Core Design Concepts"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Syntax, Operators, Logic, Flow Control, Variables, Classes, Properties, Methods, Static Methods, Abstract Classes and Methods, Interfaces, Final Classes, and Final Methods"),
-					Li("HTML5, CSS3, JavaScript 6+"),
-					Li("Component-Based Client-Side Rendering, Atomic design"),
-					Li("Progressive Web Applications, TWA's, Web Push, Installing, Manifests, Service Workers"),
-					Li("Object-Oriented Programming, Inheritance, Polymorphism, Encapsulation, Abstraction, Namespaces, Modules, Packages, and Libraries")
+					Li("Understanding layout, composition, color theory, typography, and design hierarchy"),
+					Li("Familiarity with design thinking, user-centered design, and iterative processes"),
+					Li("Principles of effective UI/UX design and information architecture")
 				])
 			]),
 
-			// Programming Languages
+			// Design Fundamentals
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Programming Languages"),
+				H4({ class: "text-xl font-bold" }, "Design Fundamentals"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("PHP"),
-					Li("JavaScript, TypeScript, ES6+"),
-					Li("Rust"),
-					Li("Golang"),
-					Li("Python"),
-					Li("C#"),
-					Li("C++, Carbon, etc."),
-					Li("Java, Kotlin, etc."),
-					Li("Swift (iOS, macOS, watchOS, tvOS)"),
-					Li("Dart (Flutter)"),
-					Li("Elixir")
+					Li("Color theory, typography, and visual hierarchy"),
+					Li("Style guides, pattern libraries, and brand guidelines"),
+					Li("Atomic Design principles: atoms, molecules, organisms, templates, and pages")
 				])
 			]),
 
-			// Communication & Problem Solving
+			// User Research & UX
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Communication & Problem Solving"),
+				H4({ class: "text-xl font-bold" }, "User Research & UX"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("How to Comment, Doc Block, Annotations, Documenting Code, Readable Code, Who are we writing code for?"),
-					Li("Learning how to break problems down to engineer solutions, How to model data")
+					Li("Conducting user interviews, surveys, and usability tests"),
+					Li("Creating user personas, user journeys, and empathy maps"),
+					Li("Information architecture, site mapping, and user flows")
 				])
 			]),
 
-			// Programming Principles, Patterns & Paradigms
+			// Communication & Collaboration
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Programming Principles, Patterns & Paradigms"),
+				H4({ class: "text-xl font-bold" }, "Communication & Collaboration"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("S.O.L.I.D, KISS, DRY, Composition over Inheritance, YAGNI, Clean Code"),
-					Li("Pub-Sub, Factory, Facade, Decorator, etc."),
-					Li("OOP, Functional, Procedural, etc.")
+					Li("Presenting design ideas effectively to stakeholders and teams"),
+					Li("Collaborating with developers, product managers, and QA"),
+					Li("Establishing feedback loops, running design critiques, and iterating quickly")
 				])
 			]),
 
-			// APIs & Databases
+			// Design Principles, Patterns & Paradigms
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "APIs & Databases"),
+				H4({ class: "text-xl font-bold" }, "Design Principles, Patterns & Paradigms"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("API: Rest, GraphQL, RPC, gRPC"),
-					Li("Databases: SQL, No-SQL, Graph Databases, Vector Databases, Sharding, partitioning, profiling, indices, foreign keys, 5 keys to Database Normalization, Cardinality")
+					Li("Heuristics, Gestalt principles, and best practices for UI/UX"),
+					Li("Material Design, Human Interface Guidelines, Fluent Design"),
+					Li("Common design patterns (cards, modals, microinteractions, etc.)")
 				])
 			]),
 
-			// Testing & Localization
+			// Information Architecture & Content Strategy
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Testing & Localization"),
+				H4({ class: "text-xl font-bold" }, "Information Architecture & Content Strategy"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Test-Driven Development, Dependency injection, Unit, Integration, End-to-End, Selenium, Jest, Vitest, PHPUnit"),
-					Li("Localization, UTC Dates")
+					Li("Structuring sitemaps, content audits, and organizing data effectively"),
+					Li("Designing clear navigation, labeling systems, and search functionality"),
+					Li("Defining content hierarchy, user flows, and cross-linking strategies")
 				])
 			]),
 
-			// Development Utils
+			// Prototyping & Testing
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Development Utils"),
+				H4({ class: "text-xl font-bold" }, "Prototyping & Testing"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Containers: Docker"),
-					Li("Package managers: npm, composer"),
-					Li("Code Bundlers: Vite, Web Pack"),
-					Li("Git, Git-flow, trunk, pull requests, Monorepos, etc."),
-					Li("CI/CD (Continuous Integration and Continuous Delivery/Deployment)"),
-					Li("Bash, terminal, command line, shell, etc.")
+					Li("Creating low-fidelity and high-fidelity wireframes and prototypes"),
+					Li("Using tools like Figma, Sketch, Adobe XD, or InVision for interactive prototypes"),
+					Li("Usability testing, A/B testing, and iterative design improvements")
 				])
 			]),
 
-			// Security & Development Operations
+			// Design Tools & Workflow
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Security & Development Operations"),
+				H4({ class: "text-xl font-bold" }, "Design Tools & Workflow"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Agile, Scrum, Kanban, Waterfall, etc."),
-					Li("GitOps"),
-					Li("DevOps"),
-					Li("SecOps")
+					Li("Figma, Sketch, Adobe Creative Cloud, and other prototyping/collaboration tools"),
+					Li("Version control for design files (e.g., Abstract, Git-LFS)"),
+					Li("Collaborative whiteboarding and brainstorming platforms like Miro")
 				])
 			]),
 
-			// Development Platforms
+			// Accessibility & Inclusive Design
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Development Platforms"),
+				H4({ class: "text-xl font-bold" }, "Accessibility & Inclusive Design"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Browser features, APIs, and limitations"),
-					Li("Mobile using React Native, Flutter, etc."),
-					Li("Desktop using .NET and Electron or other frameworks"),
-					Li("Cloud: AWS, Azure, Google Cloud, etc."),
-					Li("Serverless: AWS Lambda, Azure Functions, Google Cloud Functions, etc.")
+					Li("Following WCAG guidelines, ensuring contrast ratios and keyboard navigation"),
+					Li("Designing for diverse audiences, including color-blindness and screen readers"),
+					Li("Using semantic markup and ARIA roles in collaboration with developers")
 				])
 			]),
 
-			// Data Structures and Algorithms
+			// Responsive & Adaptive Design
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Data Structures and Algorithms"),
+				H4({ class: "text-xl font-bold" }, "Responsive & Adaptive Design"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Data Structures: built-in data types"),
-					Li("Big O Notation, Scaling, Performance"),
-					Li("Algorithms: Sorting, etc."),
-					Li("Dynamic Programming")
+					Li("Designing mobile-first layouts, fluid grids, and flexible images"),
+					Li("Planning breakpoints for various devices and screen sizes"),
+					Li("Adapting content and interactions for different contexts and platforms")
 				])
 			]),
 
-			// System Design
+			// Branding & Visual Identity
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "System Design"),
+				H4({ class: "text-xl font-bold" }, "Branding & Visual Identity"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Architectures & Design Patterns"),
-					Li("Cloud architecture"),
-					Li("Domain-driven Design"),
-					Li("SOA (Service Oriented Architecture)"),
-					Li("System Architecture"),
-					Li("Layered Architecture (Monolith)"),
-					Li("Polylith Architecture"),
-					Li("Modular Monolith Architecture"),
-					Li("Vertical Slice Architecture"),
-					Li("Hexagonal Architecture"),
-					Li("Onion Architecture"),
-					Li("Clean Architecture")
+					Li("Defining and maintaining brand guidelines, logos, and color palettes"),
+					Li("Establishing a consistent visual language across products and touchpoints"),
+					Li("Incorporating tone of voice, imagery, and typography to reinforce brand identity")
 				])
 			]),
 
-			// Distributed Systems
+			// System Design & Handoff
 			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-xl font-bold" }, "Distributed Systems"),
+				H4({ class: "text-xl font-bold" }, "System Design & Handoff"),
 				Ul({ class: "list-disc pl-6 space-y-1" }, [
-					Li("Microservices"),
-					Li("Serverless"),
-					Li("Event-Driven Design"),
-					Li("Apache Kafka, RabbitMQ, etc."),
-					Li("Message Queues, Event Queues, Event Bus, Pub-Sub, etc."),
-					Li("CQRS, Event Sourcing, etc."),
-					Li("Cloud Services, Caching & Networking"),
-					Li("Consistency, Eventual, etc."),
-					Li("AWS, Azure, Google Cloud"),
-					Li("Caching: Redis, Server Caching, Client-side Caching, JavaScript Cache API"),
-					Li("Nginx, Apache, Proxy, Reverse Proxy, Load Balancers"),
-					Li("Kubernetes")
+					Li("Creating shared libraries, design tokens, and reusable components"),
+					Li("Providing detailed specs, redlines, and documentation for developers"),
+					Li("Ensuring consistent experiences across platforms and products")
+				])
+			]),
+
+			// Continuous Improvement & Professional Growth
+			Section({ class: "space-y-4 mt-12" }, [
+				H4({ class: "text-xl font-bold" }, "Continuous Improvement & Professional Growth"),
+				Ul({ class: "list-disc pl-6 space-y-1" }, [
+					Li("Staying updated with design trends, emerging tools, and new technologies"),
+					Li("Participating in workshops, conferences, and online design communities"),
+					Li("Seeking mentorship, giving back, and fostering a culture of learning")
 				])
 			])
 		]
