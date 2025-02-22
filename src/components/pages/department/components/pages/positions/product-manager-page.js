@@ -2,17 +2,17 @@ import { H4, Li, Section, Ul } from '@base-framework/atoms';
 import { DocPage } from '../../../../doc-page.js';
 
 /**
- * ProjectManagerPage
+ * ProductManagerPage
  *
- * This page outlines the expectations, responsibilities and goals for the Project Manager position.
+ * This page outlines the expectations, responsibilities and goals for the Product Manager position.
  *
  * @returns {DocPage}
  */
-export const ProjectManagerPage = () => (
+export const ProductManagerPage = () => (
 	DocPage(
 		{
-			title: 'Project Manager',
-			description: `The Project Manager is a key member of the Product Team, responsible for implementing practices and processes that enable the team to effectively execute project deliverables. This includes defining, communicating, and ensuring proper scope, deadlines, and resource allocation for all projects. The Project Manager also serves as the primary communicator of project progress to stakeholders. This document outlines the expectations, responsibilities, and goals associated with the Project Manager position.`
+			title: 'Product Manager',
+			description: `The Product Manager is a key member of the Product Team, responsible for implementing practices and processes that enable the team to effectively execute project deliverables. This includes defining, communicating, and ensuring proper scope, deadlines, and resource allocation for all projects. The Product Manager also serves as the primary communicator of project progress to stakeholders. This document outlines the expectations, responsibilities, and goals associated with the Product Manager position.`
 		},
 		[
 			// Responsibilities Section
@@ -45,4 +45,4 @@ export const ProjectManagerPage = () => (
 	)
 );
 
-export default ProjectManagerPage;
+export default ProductManagerPage;
