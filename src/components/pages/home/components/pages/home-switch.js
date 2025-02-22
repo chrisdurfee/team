@@ -20,14 +20,6 @@ const Page = (url, title, importCallback) => ({
  */
 export const HomeSwitch = (basePath) => ([
 	Page(`${basePath}`, 'Introduction', import('./introduction/intro-page.js')),
-	Page(`${basePath}/mission`, 'Mission', import('./mission/mission-page.js')),
-	Page(`${basePath}/personality`, 'Personality', import('./personality/personality-page.js')),
-	Page(`${basePath}/goals`, 'Goals', import('./goals/goals-page.js')),
-	Page(`${basePath}/positions/cto`, 'CTO', import('./positions/cto-page.js')),
-	Page(`${basePath}/positions/director`, 'Department Director', import('./positions/director-page.js')),
-	Page(`${basePath}/positions/project-manager`, 'Project Manager', import('./positions/project-manager-page.js')),
-	Page(`${basePath}/skills/developer`, 'Developer Skills', import('./skills/developer-page.js')),
-	Page(`${basePath}/skills/designer`, 'Designer Skills', import('./skills/designer-page.js')),
 ]);
 
 export default HomeSwitch;

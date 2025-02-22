@@ -26,6 +26,11 @@ export const Routes = () => [
 	DynamicRoute('/', () => import('../components/pages/home/components/pages/home-page.js'), 'Example'),
 
 	/**
+	 * Department routes
+	 */
+	DynamicRoute('/department/:page?*', () => import('../components/pages/department/components/pages/department-page.js'), 'Department'),
+
+	/**
 	 * Music routes
 	 */
 	DynamicRoute('/music/album/:album?*', () => import('../components/pages/music/album-page/album-page.js'), 'Album'),
