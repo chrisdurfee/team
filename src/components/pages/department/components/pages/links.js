@@ -45,8 +45,8 @@ export const Links = (path) => ([
 					href: `${path}/positions/product-manager`
 				},
 				{
-					label: 'Software Designer',
-					href: `${path}/positions/software-designer`
+					label: 'Product Designer',
+					href: `${path}/positions/product-designer`
 				},
 				{
 					label: 'Software Engineer',
