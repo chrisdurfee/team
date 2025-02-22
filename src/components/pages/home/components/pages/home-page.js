@@ -13,12 +13,7 @@ const MainButtonContainer = Atom(() => (
 		A({
 			href: '/department',
 			class: 'bttn primary'
-		}, 'Get started'),
-		A({
-			href: 'https://github.com/chrisdurfee/base',
-			target: '_blank',
-			class: 'bttn ghost gap-2'
-		}, 'Github')
+		}, 'Get started')
 	])
 ));
 
