@@ -18,7 +18,7 @@ export const GoalsPage = () => (
 		[
 			Section({ class: 'space-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Department Goals'),
-				Ol({ class: 'flex flex-col space-y-8' }, [
+				Ol({ class: 'flex flex-col space-y-8 list-decimal pl-6' }, [
 					// Deliver innovative products and services
 					Li([
 						Span({ class: 'text-lg font-bold' }, 'Deliver innovative products and services: '),

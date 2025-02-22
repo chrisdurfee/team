@@ -11,7 +11,7 @@ import { CenterPage } from "@base-framework/ui/pages";
 const DocHeader = Atom(({ title, description}) => (
 	Header({ class: 'flex flex-col' }, [
 		H1({ class: 'text-3xl font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1]' }, title),
-		Pre({ class: 'text-lg font-light text-foreground mt-2 whitespace-break-spaces break-all font-sans' }, description),
+		Pre({ class: 'text-lg font-light text-foreground mt-2 whitespace-break-spaces font-sans' }, description),
 	])
 ));
 

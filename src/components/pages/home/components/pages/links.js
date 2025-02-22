@@ -100,8 +100,12 @@ export const Links = (path) => ([
 		group: 'Skills',
 		options: [
 			{
-				href: '${path}/skills/developer',
+				href: `${path}/skills/developer`,
 				label: 'Developer'
+			},
+			{
+				href: `${path}/skills/designer`,
+				label: 'Designer'
 			}
 		]
 	}
