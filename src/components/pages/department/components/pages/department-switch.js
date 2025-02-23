@@ -27,11 +27,13 @@ export const DepartmentSwitch = (basePath) => ([
 	Page(`${basePath}/positions/director`, 'Department Director', import('./positions/director-page.js')),
 	Page(`${basePath}/positions/project-manager`, 'Project Manager', import('./positions/project-manager-page.js')),
 	Page(`${basePath}/positions/product-manager`, 'Product Manager', import('./positions/product-manager-page.js')),
+	Page(`${basePath}/positions/system-engineer`, 'System Engineer', import('./positions/system-engineer-page.js')),
 	Page(`${basePath}/positions/devops-engineer`, 'DevOps Engineer', import('./positions/devops-engineer-page.js')),
 	Page(`${basePath}/positions/secops-engineer`, 'SecOps Engineer', import('./positions/secops-engineer-page.js')),
 	Page(`${basePath}/positions/product-designer`, 'Product Designer', import('./positions/product-designer-page.js')),
 	Page(`${basePath}/positions/software-engineer`, 'Software Engineer', import('./positions/software-engineer-page.js')),
 	Page(`${basePath}/positions/software-architect`, 'Software Architect', import('./positions/software-architect-page.js')),
+	Page(`${basePath}/positions/data-scientist`, 'Data Scientist', import('./positions/data-scientist-page.js')),
 	Page(`${basePath}/skills/developer`, 'Developer Skills', import('./skills/developer-page.js')),
 	Page(`${basePath}/skills/designer`, 'Designer Skills', import('./skills/designer-page.js')),
 ]);
