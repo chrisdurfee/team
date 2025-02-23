@@ -35,6 +35,8 @@ export const DepartmentSwitch = (basePath) => ([
 	Page(`${basePath}/positions/software-engineer`, 'Software Engineer', import('./positions/software-engineer-page.js')),
 	Page(`${basePath}/positions/software-architect`, 'Software Architect', import('./positions/software-architect-page.js')),
 	Page(`${basePath}/positions/data-scientist`, 'Data Scientist', import('./positions/data-scientist-page.js')),
+	Page(`${basePath}/processes/end-to-end-development`, 'End to End Development', import('./processes/sdlc-documentation-page.js')),
+	Page(`${basePath}/processes/security/information-security-plan`, 'Information Security Plan', import('./processes/security/information-security-plan-page.js')),
 	Page(`${basePath}/skills/developer`, 'Developer Skills', import('./skills/developer-page.js')),
 	Page(`${basePath}/skills/designer`, 'Designer Skills', import('./skills/designer-page.js')),
 ]);
