@@ -1,4 +1,4 @@
-import { H4, Li, P, Section, Ul } from "@base-framework/atoms";
+import { H4, Li, Section, Ul } from "@base-framework/atoms";
 import { DocPage } from "../../../../../doc-page.js";
 
 /**
@@ -13,17 +13,9 @@ export const ProductSecurityPage = () => (
 		{
 			title: "Product Security",
 			description:
-				"We are committed to ensuring the highest level of security for Essentials and other internal and external services. This document outlines key security measures to secure our servers, application, and client data."
+				"We are committed to ensuring the highest level of security for Essentials and other internal and external services. We implement a range of best practices to secure our servers, application, and client data. This document outlines some of the key methods we employ to maintain a secure environment."
 		},
 		[
-			// Introduction
-			Section({ class: "space-y-4 mt-12" }, [
-				H4({ class: "text-2xl font-bold" }, "Introduction"),
-				P(
-					"We are committed to ensuring the highest level of security for Essentials and other internal and external services. We implement a range of best practices to secure our servers, application, and client data. This document outlines some of the key methods we employ to maintain a secure environment."
-				)
-			]),
-
 			// Hosting
 			Section({ class: "space-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Hosting"),
