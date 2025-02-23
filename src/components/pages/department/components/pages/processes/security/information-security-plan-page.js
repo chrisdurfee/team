@@ -6,8 +6,6 @@ import { DocPage } from "../../../../../doc-page.js";
  *
  * This page outlines the Information Security Plan for our company.
  *
- * Last Updated - May 15, 2023
- *
  * @returns {DocPage}
  */
 export const InformationSecurityPlanPage = () => (
