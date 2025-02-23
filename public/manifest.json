@@ -1,6 +1,6 @@
 {
-	"short_name": "Base Example",
-	"name": "Base Example",
+	"short_name": "Team",
+	"name": "Team",
 	"icons": [
 		{
 			"src": "./images/icons/icon-192.png",
