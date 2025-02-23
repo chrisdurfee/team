@@ -5,7 +5,7 @@ const SystemEngineer = () => {
   return `
     <h1>System Engineer</h1>
     <p>
-      The System Engineer is an essential role within the Technical Department, responsible for designing, implementing, and maintaining the infrastructure and systems that support DentalQore's software solutions. This role requires strong technical skills, a solid understanding of various systems and networking concepts, and the ability to collaborate effectively within a dynamic, Agile environment.
+      The System Engineer is an essential role within the Technical Department, responsible for designing, implementing, and maintaining the infrastructure and systems that support our software solutions. This role requires strong technical skills, a solid understanding of various systems and networking concepts, and the ability to collaborate effectively within a dynamic, Agile environment.
     </p>
     <h2>Responsibilities</h2>
     <ul>
@@ -21,10 +21,10 @@ const SystemEngineer = () => {
     </ul>
     <h2>Goals</h2>
     <ul>
-      <li>Ensure the availability, reliability, and performance of DentalQore's infrastructure and systems, meeting or exceeding the needs of clients and internal teams.</li>
+      <li>Ensure the availability, reliability, and performance of our infrastructure and systems, meeting or exceeding the needs of clients and internal teams.</li>
       <li>Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department.</li>
       <li>Maintain a strong focus on security, ensuring that the infrastructure and systems you manage adhere to best practices and comply with applicable laws and regulations.</li>
-      <li>Contribute to the overall success of the Technical Department and the growth of DentalQore by helping to ensure the efficient and secure operation of the company's infrastructure and systems.</li>
+      <li>Contribute to the overall success of the Technical Department and the growth of our company by helping to ensure the efficient and secure operation of the company's infrastructure and systems.</li>
     </ul>
   `;
 };

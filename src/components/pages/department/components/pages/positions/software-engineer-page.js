@@ -13,7 +13,7 @@ export const SoftwareEngineerPage = () => (
 	DocPage(
 		{
 			title: 'Software Engineer',
-			description: `The Software Engineer is a vital role within the department, responsible for designing, implementing, testing, and maintaining high-quality software solutions that meet the needs of DentalQore's clients and internal teams. This role requires strong technical skills, problem-solving abilities, and the ability to work effectively within a collaborative, Agile development environment. This document outlines the expectations, responsibilities, and goals associated with the Software Engineer position.`
+			description: `The Software Engineer is a vital role within the department, responsible for designing, implementing, testing, and maintaining high-quality software solutions that meet the needs of our clients and internal teams. This role requires strong technical skills, problem-solving abilities, and the ability to work effectively within a collaborative, Agile development environment. This document outlines the expectations, responsibilities, and goals associated with the Software Engineer position.`
 		},
 		[
 			// Responsibilities Section
@@ -33,11 +33,11 @@ export const SoftwareEngineerPage = () => (
 			Section({ class: 'space-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
 				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
-					Li("Consistently deliver high-quality software solutions that meet or exceed the needs of DentalQore's clients and internal teams."),
+					Li("Consistently deliver high-quality software solutions that meet or exceed the needs of our clients and internal teams."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department."),
 					Li("Maintain a strong focus on security, ensuring that the software solutions you develop adhere to best practices and comply with applicable laws and regulations."),
 					Li("Stay up-to-date with industry trends and best practices, incorporating new ideas and approaches into your work."),
-					Li("Contribute to the overall success of the Technical Department and the growth of DentalQore by helping to ensure the timely delivery of innovative, demand-driven software solutions.")
+					Li("Contribute to the overall success of the Technical Department and the growth of our company by helping to ensure the timely delivery of innovative, demand-driven software solutions.")
 				])
 			])
 		]

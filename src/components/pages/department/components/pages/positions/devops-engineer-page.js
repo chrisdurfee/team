@@ -35,7 +35,7 @@ export const DevOpsEngineerPage = () => (
 				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
 					Li("Continuously improve the efficiency, reliability, and performance of our CI/CD pipelines and infrastructure."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department."),
-					Li("Ensure that our software solutions are developed, tested, and deployed in a manner that supports DentalQore's business objectives and product goals."),
+					Li("Ensure that our software solutions are developed, tested, and deployed in a manner that supports our business objectives and product goals."),
 					Li("Maintain a high level of availability, performance, and security for our infrastructure."),
 					Li("Build strong relationships with other team members and stakeholders, ensuring effective communication and collaboration.")
 				])

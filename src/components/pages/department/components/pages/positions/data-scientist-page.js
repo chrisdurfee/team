@@ -32,11 +32,11 @@ export const DataScientistPage = () => (
 			Section({ class: 'space-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
 				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
-					Li("Continuously generate data-driven insights that inform decision-making and drive innovation within the Technical Department and DentalQore as a whole."),
+					Li("Continuously generate data-driven insights that inform decision-making and drive innovation within the Technical Department and our company as a whole."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department."),
 					Li("Ensure the accuracy, consistency, and relevance of the data used in your analyses and models, minimizing the risk of incorrect or misleading conclusions."),
 					Li("Develop and maintain strong relationships with other team members and stakeholders, ensuring effective communication and collaboration."),
-					Li("Contribute to the overall success of the Technical Department and the growth of DentalQore by helping to ensure the delivery of innovative, data-driven solutions.")
+					Li("Contribute to the overall success of the Technical Department and the growth of our company by helping to ensure the delivery of innovative, data-driven solutions.")
 				])
 			])
 		]

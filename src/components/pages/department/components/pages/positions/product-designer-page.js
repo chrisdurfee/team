@@ -23,7 +23,7 @@ export const ProductDesignerPage = () => (
 					Li("Collaborate with the Product Manager, Development Team, and other stakeholders to understand project requirements and user needs."),
 					Li("Conduct user research, analyze user behavior, and create user personas to inform design decisions."),
 					Li("Create wireframes, mockups, and prototypes to communicate and iterate on design ideas."),
-					Li("Develop high-fidelity visual designs and user interfaces that adhere to DentalQore's design guidelines and industry best practices."),
+					Li("Develop high-fidelity visual designs and user interfaces that adhere to our design guidelines and industry best practices."),
 					Li("Conduct usability testing and gather user feedback to refine and improve the product design."),
 					Li("Collaborate with developers to ensure the final product is aligned with the intended design and provides an excellent user experience."),
 					Li("Stay up-to-date with the latest design trends, technologies, and tools, continuously improving your skills and contributing to the team's knowledge.")
@@ -37,7 +37,7 @@ export const ProductDesignerPage = () => (
 					Li("Consistently improve the usability, accessibility, and overall user experience of our products and services."),
 					Li("Collaborate effectively with cross-functional teams, ensuring that designs are aligned with product goals and business objectives."),
 					Li("Stay up-to-date with industry trends and best practices, incorporating new ideas and approaches into your work."),
-					Li("Develop and maintain a deep understanding of DentalQore's brand, ensuring that all designs are consistent with our visual identity and messaging."),
+					Li("Develop and maintain a deep understanding of our brand, ensuring that all designs are consistent with our visual identity and messaging."),
 					Li("Continuously seek feedback from users, product managers, and stakeholders, using this information to inform your design decisions and improve your skills.")
 				])
 			])

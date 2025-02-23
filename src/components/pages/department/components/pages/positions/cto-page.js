@@ -12,7 +12,7 @@ export const CTOPage = () => (
     DocPage(
         {
             title: 'Chief Technology Officer (CTO)',
-            description: `The Chief Technology Officer (CTO) is a key leadership role in the organization, responsible for overseeing the strategic direction, development, and execution of DentalQore's technology vision. This role requires strong technical expertise, business acumen, and the ability to lead, inspire, and collaborate effectively with cross-functional teams. This document outlines the expectations, responsibilities, and goals associated with the CTO position.`
+            description: `The Chief Technology Officer (CTO) is a key leadership role in the organization, responsible for overseeing the strategic direction, development, and execution of our technology vision. This role requires strong technical expertise, business acumen, and the ability to lead, inspire, and collaborate effectively with cross-functional teams. This document outlines the expectations, responsibilities, and goals associated with the CTO position.`
         },
         [
             // Responsibilities Section
@@ -33,7 +33,7 @@ export const CTOPage = () => (
                 H4({ class: 'text-2xl font-bold' }, 'Goals'),
                 Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
                     Li("Drive the successful execution of the technology vision and strategy, ensuring that it remains aligned with the company's overall mission, goals, and objectives."),
-                    Li("Continuously improve the quality, reliability, and performance of DentalQore's software solutions, ensuring that they meet or exceed customer expectations."),
+                    Li("Continuously improve the quality, reliability, and performance of our software solutions, ensuring that they meet or exceed customer expectations."),
                     Li("Develop and maintain a high-performing Technical Department, fostering an environment of collaboration, innovation, and continuous learning."),
                     Li("Ensure the successful delivery of technology initiatives, balancing the need for innovation with the importance of delivering value to the business."),
                     Li("Promote a culture of security and compliance, ensuring that the organization's technology infrastructure, systems, and processes remain resilient and protected.")

@@ -13,7 +13,7 @@ export const SystemEngineerPage = () => (
 	DocPage(
 		{
 			title: 'System Engineer',
-			description: `The System Engineer is an essential role within the Technical Department, responsible for designing, implementing, and maintaining the infrastructure and systems that support DentalQore's software solutions. This role requires strong technical skills, a solid understanding of various systems and networking concepts, and the ability to collaborate effectively within a dynamic, Agile environment. This document outlines the expectations, responsibilities, and goals associated with the System Engineer position.`
+			description: `The System Engineer is an essential role within the Technical Department, responsible for designing, implementing, and maintaining the infrastructure and systems that support our software solutions. This role requires strong technical skills, a solid understanding of various systems and networking concepts, and the ability to collaborate effectively within a dynamic, Agile environment. This document outlines the expectations, responsibilities, and goals associated with the System Engineer position.`
 		},
 		[
 			// Responsibilities Section
@@ -36,10 +36,10 @@ export const SystemEngineerPage = () => (
 			Section({ class: 'space-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
 				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
-					Li('Ensure the availability, reliability, and performance of DentalQore\'s infrastructure and systems, meeting or exceeding the needs of clients and internal teams.'),
+					Li('Ensure the availability, reliability, and performance of our infrastructure and systems, meeting or exceeding the needs of clients and internal teams.'),
 					Li('Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department.'),
 					Li('Maintain a strong focus on security, ensuring that the infrastructure and systems you manage adhere to best practices and comply with applicable laws and regulations.'),
-					Li('Contribute to the overall success of the Technical Department and the growth of DentalQore by helping to ensure the efficient and secure operation of the company\'s infrastructure and systems.')
+					Li('Contribute to the overall success of the Technical Department and the growth of our company by helping to ensure the efficient and secure operation of the company\'s infrastructure and systems.')
 				])
 			])
 		]

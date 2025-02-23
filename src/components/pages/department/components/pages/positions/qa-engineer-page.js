@@ -36,7 +36,7 @@ export const QAEngineerPage = () => (
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the department."),
 					Li("Ensure that our testing processes and methodologies remain effective and efficient, allowing us to identify and address issues quickly and proactively."),
 					Li("Maintain strong relationships with other team members and stakeholders, ensuring effective communication and collaboration."),
-					Li("Contribute to the overall success of the department and the growth of DentalQore by helping to ensure the delivery of high-quality software solutions.")
+					Li("Contribute to the overall success of the department and the growth of our company by helping to ensure the delivery of high-quality software solutions.")
 				])
 			])
 		]

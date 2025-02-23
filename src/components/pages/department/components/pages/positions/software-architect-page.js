@@ -35,7 +35,7 @@ export const SoftwareArchitectPage = () => (
 				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
 					Li('Continuously improve the quality, performance, and security of our software solutions.'),
 					Li('Foster a culture of collaboration and knowledge sharing within the department.'),
-					Li("Develop and maintain a deep understanding of DentalQore's business objectives, ensuring that our software solutions support and advance these objectives."),
+					Li("Develop and maintain a deep understanding of our company's business objectives, ensuring that our software solutions support and advance these objectives."),
 					Li('Stay up-to-date with industry trends and best practices, incorporating new ideas and approaches into your work.'),
 					Li('Ensure that our software solutions are designed with scalability and maintainability in mind, allowing us to effectively respond to changing market conditions and user needs.'),
 					Li('Build strong relationships with other team members and stakeholders, ensuring effective communication and collaboration.')

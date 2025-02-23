@@ -22,7 +22,7 @@ export const ProjectManagerPage = () => (
 					Li("Establish and maintain Agile Project Management practices for the Product Team to optimize efficiency and maintain focus on projects."),
 					Li("Run meetings for the Product team to coordinate on project items and clear roadblocks to ensure progress is made."),
 					Li("Define project scope, goals, and deliverables."),
-					Li("Establish project roadmaps for DentalQore products."),
+					Li("Establish project roadmaps for our products."),
 					Li("Create and continuously groom the product backlog and ensure that work items (stories and tasks) are clearly written and defined."),
 					Li("Act as the team's main communicator: field and help vet all new product ideas, requests for product changes, updates, bugs, etc."),
 					Li("Routinely communicate project progress to the Executive Team and other stakeholders."),
@@ -30,7 +30,7 @@ export const ProjectManagerPage = () => (
 					Li("Document Project Objectives, Key Outcomes, Details, Status, Scope Changes, and Final Deliverables."),
 					Li("Participate in the organizational processes around product releases, strategies, standards, and processes."),
 					Li("Play a role in product vision: provide insight into how we can build the best products for our clients."),
-					Li("Build strong relationships on the team and throughout the organization to help propel the DentalQore vision.")
+					Li("Build strong relationships on the team and throughout the organization to help propel our vision.")
 				])
 			]),
 			// Goals Section
