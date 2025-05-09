@@ -1,4 +1,4 @@
-import{u as t,d as o,Z as r,e}from"./index-BkblDFd6.js";import{D as s}from"./doc-page-XMlFYyTQ.js";import"./sidebar-menu-page-nCAVFk3R-KlB7b59w.js";const c=()=>s({title:"Department Director",description:`The director of Product Development oversees the development of our products and services. These areas include planning, research, design, development, testing, and maintenance.
+import{u as t,d as o,Z as r,e}from"./index-DkyEPZWC.js";import{D as s}from"./doc-page-ChNOwm3c.js";import"./sidebar-menu-page-RXqfmxT9-TIIVDod9.js";const c=()=>s({title:"Department Director",description:`The director of Product Development oversees the development of our products and services. These areas include planning, research, design, development, testing, and maintenance.
 
 The director acts as lead architect on our platforms and develops many tools, frameworks, patterns, and infrastructure to reduce development time and decrease the friction to allow our team members to have optimal working environments.
 
