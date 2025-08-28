@@ -16,9 +16,9 @@ export const GoalsPage = () => (
 			description: `The department's goals are essential to aligning our efforts with the company's overall vision and ensuring that we continually improve our products, services, and team dynamics. This document outlines our department's key goals and provides a framework for measuring our progress and success.`
 		},
 		[
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Department Goals'),
-				Ol({ class: 'flex flex-col space-y-8 list-decimal pl-6' }, [
+				Ol({ class: 'flex flex-col gap-y-8 list-decimal pl-6' }, [
 					// Deliver innovative products and services
 					Li([
 						Span({ class: 'text-lg font-bold' }, 'Deliver innovative products and services: '),

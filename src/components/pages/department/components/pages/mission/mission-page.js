@@ -16,15 +16,15 @@ export const MissionPage = () => (
 		},
 		[
 			// Mission Statement Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Mission Statement'),
 				P({ class: 'text-muted-foreground' }, 'To develop innovative, demand-driven, user-derived solutions for our clients by balancing form and function, allowing for large-scale adoption by abstracting technology from the solution.')
 			]),
 
 			// Key Concepts Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Key Concepts'),
-				Div({ class: 'flex flex-col space-y-8' }, [
+				Div({ class: 'flex flex-col gap-y-8' }, [
 					Div([
 						Span({ class: 'text-lg' }, 'Innovative Solutions: '),
 						P({ class: 'text-muted-foreground' }, 'We strive to create cutting-edge solutions that leverage the latest technologies and industry best practices. We consistently challenge ourselves to think outside the box and explore new approaches to deliver exceptional value to our clients.')

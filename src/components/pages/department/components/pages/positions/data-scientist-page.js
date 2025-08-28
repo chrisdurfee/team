@@ -16,9 +16,9 @@ export const DataScientistPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc flex flex-col pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Collect, clean, and preprocess data from various sources, ensuring its accuracy, consistency, and relevance."),
 					Li("Conduct exploratory data analysis to identify trends, patterns, and anomalies that can inform decision-making and product development."),
 					Li("Develop and implement machine learning models and algorithms to solve complex problems and generate actionable insights."),
@@ -29,9 +29,9 @@ export const DataScientistPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc flex flex-col pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Continuously generate data-driven insights that inform decision-making and drive innovation within the Technical Department and our company as a whole."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department."),
 					Li("Ensure the accuracy, consistency, and relevance of the data used in your analyses and models, minimizing the risk of incorrect or misleading conclusions."),

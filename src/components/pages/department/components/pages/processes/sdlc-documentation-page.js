@@ -17,12 +17,12 @@ export const SDLCDocumentationPage = () => (
 		},
 		[
 			// Product Vision and Roadmap
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Product Vision and Roadmap"),
 				P(
 					"The product vision defines the overall purpose and goal of the software product, while the product roadmap outlines the strategic plan including features, functionality, and milestones. This stage involves:"
 				),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Defining the product vision"),
 					Li("Identifying business needs and opportunities through market research, customer feedback, and trend analysis"),
 					Li("Defining product goals with SMART (Specific, Measurable, Attainable, Relevant, Time-bound) criteria"),
@@ -32,10 +32,10 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Requirements
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Requirements"),
 				P("This stage focuses on gathering and analyzing software requirements. It involves:"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Eliciting requirements by engaging stakeholders through interviews, workshops, and surveys"),
 					Li("Analyzing requirements to review, categorize, and prioritize based on business value, feasibility, and risks"),
 					Li("Defining functional and non-functional requirements that specify features and performance criteria"),
@@ -45,12 +45,12 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Design
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Design"),
 				P(
 					"The design phase involves creating a detailed blueprint of the software architecture, user interface, and data models. This includes:"
 				),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Architectural design: Defining the high-level structure, components, and their interactions"),
 					Li("User interface design: Crafting the visual layout, navigation, and interaction elements for an intuitive experience"),
 					Li("Database design: Modeling the structure, relationships, and constraints of the data storage system"),
@@ -60,10 +60,10 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Implementation
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Implementation"),
 				P("This phase is where the actual coding and development of the software take place. It includes:"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Setting up the development environment by configuring tools, libraries, and frameworks"),
 					Li("Setting up servers and infrastructure for testing, staging, and production"),
 					Li("Establishing DevOps pipelines to automate service and feature builds"),
@@ -74,12 +74,12 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Testing
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Testing"),
 				P(
 					"Testing is critical to ensure that the software meets requirements and is free of defects. This stage includes:"
 				),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Developing a test plan that outlines the testing approach, objectives, resources, and schedule"),
 					Li("Designing test cases with detailed scenarios, input data, expected results, and acceptance criteria"),
 					Li("Executing tests including unit, integration, system, performance, and security tests"),
@@ -88,12 +88,12 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Deployment
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Deployment"),
 				P(
 					"Deployment involves installing the software in the production environment and making it available to end users. It includes:"
 				),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Planning deployment with defined processes, prerequisites, rollback strategies, and timelines"),
 					Li("Preparing the release by packaging the software along with configuration files, scripts, and documentation"),
 					Li("Deploying to production by installing, configuring, and launching the software"),
@@ -102,10 +102,10 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Maintenance
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Maintenance"),
 				P("The maintenance stage involves ongoing support, bug fixes, and enhancements. It includes:"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Troubleshooting and resolving issues by identifying root causes and implementing fixes"),
 					Li("Monitoring performance to detect bottlenecks and capacity issues"),
 					Li("Applying updates and patches to keep the software current with security fixes and feature enhancements"),
@@ -114,10 +114,10 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// User Feedback
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "User Feedback"),
 				P("User feedback is essential for refining and enhancing the product. This stage involves:"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Allowing customers to report defects or request new features"),
 					Li("Establishing regular sessions for product managers and designers to validate flows with users"),
 					Li("Reporting findings to the product manager for evaluation and potential inclusion in the backlog")
@@ -125,12 +125,12 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Engineering Deliverables
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Engineering Deliverables"),
 				P(
 					"Engineering deliverables are produced throughout the SDLC and include documentation, source code, test plans, and reports. Key deliverables include:"
 				),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li(
 						"Requirement specifications: Functional and non-functional requirements, use case diagrams, and user stories"
 					),
@@ -148,12 +148,12 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Reports
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Reports"),
 				P(
 					"Reports are generated throughout the SDLC to track progress, performance, and accountability. Examples include:"
 				),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li(
 						"Project status reports: Progress summaries, schedule updates, resource utilization, and risk/issue updates"
 					),
@@ -170,10 +170,10 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Workflow
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Workflow"),
 				P("Our workflow follows an Agile-like system involving several key steps:"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li(
 						"Planning and estimation: Defining project scope, gathering and analyzing requirements, and creating a work breakdown structure"
 					),
@@ -196,12 +196,12 @@ export const SDLCDocumentationPage = () => (
 			]),
 
 			// Core Tools
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Core Tools"),
 				P(
 					"A variety of tools are utilized throughout the SDLC to streamline processes, facilitate collaboration, and boost productivity. Core tools include:"
 				),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Project management tools: Jira, Trello"),
 					Li("Version control systems: Bitbucket"),
 					Li("Integrated Development Environments (IDEs): Visual Studio Code, Eclipse, JetBrains variants"),

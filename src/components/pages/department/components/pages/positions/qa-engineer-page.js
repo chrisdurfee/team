@@ -16,9 +16,9 @@ export const QAEngineerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Develop and execute test plans, test cases, and test scripts for our software solutions, ensuring comprehensive coverage of all functional and non-functional requirements."),
 					Li("Collaborate with development, product, and operations teams to identify, report, and track defects, working together to determine their root causes and implement corrective actions."),
 					Li("Contribute to the continuous improvement of our testing processes, methodologies, and tools, ensuring that they remain effective and up-to-date."),
@@ -29,9 +29,9 @@ export const QAEngineerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Continuously improve the quality, reliability, and performance of our software solutions, ensuring that they meet or exceed customer expectations."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the department."),
 					Li("Ensure that our testing processes and methodologies remain effective and efficient, allowing us to identify and address issues quickly and proactively."),

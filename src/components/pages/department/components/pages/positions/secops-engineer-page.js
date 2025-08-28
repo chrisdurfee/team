@@ -17,9 +17,9 @@ export const SecOpsEngineerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Develop and implement security policies, procedures, and best practices to protect our systems and applications from security threats."),
 					Li("Monitor and analyze security events and incidents, responding to and resolving any security breaches or vulnerabilities."),
 					Li("Conduct regular security assessments and audits, ensuring that our systems and applications comply with industry standards and applicable laws and regulations."),
@@ -30,9 +30,9 @@ export const SecOpsEngineerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Ensure the security, compliance, and integrity of our systems and applications, protecting sensitive data and maintaining client trust."),
 					Li("Continuously improve the organization's security posture by identifying and mitigating potential risks and vulnerabilities."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous learning within the Technical Department, with a focus on security best practices."),

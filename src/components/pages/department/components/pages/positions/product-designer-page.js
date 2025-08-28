@@ -17,9 +17,9 @@ export const ProductDesignerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Collaborate with the Product Manager, Development Team, and other stakeholders to understand project requirements and user needs."),
 					Li("Conduct user research, analyze user behavior, and create user personas to inform design decisions."),
 					Li("Create wireframes, mockups, and prototypes to communicate and iterate on design ideas."),
@@ -30,9 +30,9 @@ export const ProductDesignerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Deliver user-centered designs that address the needs and pain points of our clients and users."),
 					Li("Consistently improve the usability, accessibility, and overall user experience of our products and services."),
 					Li("Collaborate effectively with cross-functional teams, ensuring that designs are aligned with product goals and business objectives."),

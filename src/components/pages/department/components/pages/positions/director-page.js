@@ -22,9 +22,9 @@ The director also mentors and trains the design/developers to multiply the talen
         },
         [
             // Responsibilities Section
-            Section({ class: 'space-y-4 mt-12' }, [
+            Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
                 H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-                Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+                Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
                     Li('Research future platforms, tools, technologies, and programming languages.'),
                     Li('Develop new technologies to increase the speed and performance of team members and projects.'),
                     Li('Work with our Project Manager to break down the current tasks and priorities to optimize the department bandwidth.'),
@@ -35,9 +35,9 @@ The director also mentors and trains the design/developers to multiply the talen
                 ])
             ]),
             // Goals Section
-            Section({ class: 'space-y-4 mt-12' }, [
+            Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
                 H4({ class: 'text-2xl font-bold' }, 'Goals'),
-                Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+                Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
                     Li('Drive innovation and streamline product development cycles, ensuring scalability and reduced friction.'),
                     Li('Mentor and empower design/developers to achieve operational excellence and foster continuous improvement.')
                 ])

@@ -16,9 +16,9 @@ export const ProductManagerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Define and communicate the product vision and strategy, aligning with the company's overall objectives."),
 					Li("Collaborate with stakeholders to gather product requirements, identify user needs, and prioritize product features."),
 					Li("Develop and maintain a well-organized product backlog, ensuring all items are clearly defined and prioritized."),
@@ -30,9 +30,9 @@ export const ProductManagerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Develop and maintain a deep understanding of customer needs and market trends to inform product strategy and prioritization."),
 					Li("Ensure all product goals and objectives are aligned with the company vision."),
 					Li("Collaborate effectively with cross-functional teams to deliver high-quality products on time and within budget."),

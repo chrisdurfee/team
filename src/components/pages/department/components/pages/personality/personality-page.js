@@ -16,9 +16,9 @@ export const PersonalityPage = () => (
 		},
 		[
 			// Department Personality Traits Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Department Personality Traits'),
-				Div({ class: 'flex flex-col space-y-8' }, [
+				Div({ class: 'flex flex-col gap-y-8' }, [
 					Div([
 						Span({ class: 'text-lg' }, 'Courteous and Respectful: '),
 						P({ class: 'text-muted-foreground' }, 'We treat everyone with courtesy and respect, fostering a positive and welcoming work environment. We value open-mindedness and demonstrate empathy in our interactions with others, ensuring that everyone\'s opinions and ideas are valued and respected.')
@@ -34,9 +34,9 @@ export const PersonalityPage = () => (
 				])
 			]),
 			// Department Commitment to Diversity and Inclusion Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Department Commitment to Diversity and Inclusion'),
-				Div({ class: 'flex flex-col space-y-8' }, [
+				Div({ class: 'flex flex-col gap-y-8' }, [
 					Div([
 						Span({ class: 'text-lg' }, 'Inclusive and Supportive: '),
 						P({ class: 'text-muted-foreground' }, 'Our department is dedicated to creating an inclusive and supportive environment for all team members, regardless of their race, religion, age, gender, background, culture, or perspective. We value diversity and believe that it enriches our team\'s creativity, innovation, and problem-solving abilities. We strive to create a safe and welcoming space where everyone can share their ideas, experiences, and opinions.')

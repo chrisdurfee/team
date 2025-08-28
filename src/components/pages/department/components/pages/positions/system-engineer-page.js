@@ -17,9 +17,9 @@ export const SystemEngineerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
 					Li('Research new software, tools, practices, and patterns to stay informed about industry trends and identify opportunities for improvement.'),
 					Li('Create contingency plans for various situations, preparing game plans to address potential challenges and minimize downtime.'),
 					Li('Implement disaster recovery plans for all systems, services, tools, and environments, ensuring business continuity and minimizing data loss.'),
@@ -33,9 +33,9 @@ export const SystemEngineerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
 					Li('Ensure the availability, reliability, and performance of our infrastructure and systems, meeting or exceeding the needs of clients and internal teams.'),
 					Li('Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department.'),
 					Li('Maintain a strong focus on security, ensuring that the infrastructure and systems you manage adhere to best practices and comply with applicable laws and regulations.'),

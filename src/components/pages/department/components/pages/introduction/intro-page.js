@@ -18,9 +18,9 @@ We strive to ship fast, iterate often, and solve actual problems to create innov
         },
 		[
 			// Department Expectations Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Department Expectations'),
-				Div({ class: 'flex flex-col space-y-8' }, [
+				Div({ class: 'flex flex-col gap-y-8' }, [
 					Div([
 						Span({ class: 'text-lg' }, 'Maintain professionalism: '),
 						P({ class: 'text-muted-foreground' }, 'Uphold the company\'s values and adhere to established policies and procedures. Act with integrity, respect, and professionalism in all interactions with colleagues, clients, and stakeholders.')
@@ -45,9 +45,9 @@ We strive to ship fast, iterate often, and solve actual problems to create innov
 			]),
 
 			// Reusable Assets and Quality Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Reusable Assets and Deliver Quality'),
-				Div({ class: 'flex flex-col space-y-8' }, [
+				Div({ class: 'flex flex-col gap-y-8' }, [
 					Div([
 						Span({ class: 'text-lg' }, 'Reusable Assets: '),
 						P({ class: 'text-muted-foreground' }, 'Abstract your project into base types and create reusable assets that can be used multiple times. Good developers write code, great developers write libraries.')
@@ -60,9 +60,9 @@ We strive to ship fast, iterate often, and solve actual problems to create innov
 			]),
 
 			// Department Processes Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Department Processes'),
-				Div({ class: 'flex flex-col space-y-8' }, [
+				Div({ class: 'flex flex-col gap-y-8' }, [
 					Div([
 						Span({ class: 'text-lg' }, 'Security First: '),
 						P({ class: 'text-muted-foreground' }, 'We build our projects locked down, then make them work only opening as little as necessary to do the function or task.')

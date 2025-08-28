@@ -17,9 +17,9 @@ export const SoftwareArchitectPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li('Design and develop the overall architecture of our software solutions, ensuring that they are scalable, maintainable, and secure.'),
 					Li('Collaborate with cross-functional teams to gather requirements, define system specifications, and identify potential solutions.'),
 					Li('Review and evaluate existing systems, identifying areas for improvement or optimization.'),
@@ -30,9 +30,9 @@ export const SoftwareArchitectPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li('Continuously improve the quality, performance, and security of our software solutions.'),
 					Li('Foster a culture of collaboration and knowledge sharing within the department.'),
 					Li("Develop and maintain a deep understanding of our company's business objectives, ensuring that our software solutions support and advance these objectives."),

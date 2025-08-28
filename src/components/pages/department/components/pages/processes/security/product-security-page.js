@@ -17,9 +17,9 @@ export const ProductSecurityPage = () => (
 		},
 		[
 			// Hosting
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Hosting"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("We utilize secure, cloud-hosted servers that adhere to industry best practices for premises security and server access."),
 					Li("Access to specific resources is restricted through white-listing."),
 					Li("Regular security scans ensure that our systems remain secure."),
@@ -29,9 +29,9 @@ export const ProductSecurityPage = () => (
 			]),
 
 			// Servers
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Servers"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("Our application is prevented from being nested in iframes."),
 					Li("We implement XSS-Protection headers to counteract cross-site scripting."),
 					Li("Strict-Transport-Security headers are in place to mitigate man-in-the-middle attacks."),
@@ -42,9 +42,9 @@ export const ProductSecurityPage = () => (
 			]),
 
 			// Platform
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Platform"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("User authentication is mandatory, with all users required to log in using a username and password that meet HIPAA recommendations."),
 					Li("Cookies set by the application can only be used over an HTTP secure connection, adhering to the strict same-site policy."),
 					Li("We employ rate limiting and brute force prevention measures to combat malicious activities during login attempts."),
@@ -57,9 +57,9 @@ export const ProductSecurityPage = () => (
 			]),
 
 			// Development
-			Section({ class: "space-y-4 mt-12" }, [
+			Section({ class: "flex flex-col gap-y-4 mt-12" }, [
 				H4({ class: "text-2xl font-bold" }, "Development"),
-				Ul({ class: "list-disc pl-6 space-y-1 text-muted-foreground" }, [
+				Ul({ class: "list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground" }, [
 					Li("System Engineers and our Security Manager provide training for our teams, ensuring secure and resilient system development."),
 					Li("Regular updates on new security topics are provided to the teams, along with encouragement to continue learning."),
 					Li("We leverage tools, libraries, and best practices to create secure applications."),

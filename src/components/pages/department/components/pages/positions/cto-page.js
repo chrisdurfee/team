@@ -16,9 +16,9 @@ export const CTOPage = () => (
         },
         [
             // Responsibilities Section
-            Section({ class: 'space-y-4 mt-12' }, [
+            Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
                 H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-                Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+                Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
                     Li("Define and communicate the technology vision and strategy, aligning it with the company's overall mission, goals, and objectives."),
                     Li("Oversee the development, implementation, and maintenance of all software solutions, ensuring their quality, reliability, and performance."),
                     Li("Lead and manage the Technical Department, fostering a culture of collaboration, innovation, and continuous improvement."),
@@ -29,9 +29,9 @@ export const CTOPage = () => (
                 ])
             ]),
             // Goals Section
-            Section({ class: 'space-y-4 mt-12' }, [
+            Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
                 H4({ class: 'text-2xl font-bold' }, 'Goals'),
-                Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+                Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
                     Li("Drive the successful execution of the technology vision and strategy, ensuring that it remains aligned with the company's overall mission, goals, and objectives."),
                     Li("Continuously improve the quality, reliability, and performance of our software solutions, ensuring that they meet or exceed customer expectations."),
                     Li("Develop and maintain a high-performing Technical Department, fostering an environment of collaboration, innovation, and continuous learning."),

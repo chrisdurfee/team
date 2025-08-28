@@ -17,9 +17,9 @@ export const SoftwareEngineerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
 					Li("Collaborate with cross-functional teams, including product managers, designers, and other engineers, to design, develop, and deliver high-quality software solutions."),
 					Li("Write clean, maintainable, and efficient code, adhering to established coding standards and best practices."),
 					Li("Participate in code reviews, providing constructive feedback to your peers and incorporating feedback received from others to improve your own work."),
@@ -30,9 +30,9 @@ export const SoftwareEngineerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
 					Li("Consistently deliver high-quality software solutions that meet or exceed the needs of our clients and internal teams."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department."),
 					Li("Maintain a strong focus on security, ensuring that the software solutions you develop adhere to best practices and comply with applicable laws and regulations."),

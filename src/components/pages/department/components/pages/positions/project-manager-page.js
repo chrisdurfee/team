@@ -16,9 +16,9 @@ export const ProjectManagerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Establish and maintain Agile Project Management practices for the Product Team to optimize efficiency and maintain focus on projects."),
 					Li("Run meetings for the Product team to coordinate on project items and clear roadblocks to ensure progress is made."),
 					Li("Define project scope, goals, and deliverables."),
@@ -34,9 +34,9 @@ export const ProjectManagerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 gap-y-1 text-muted-foreground' }, [
 					Li("Ensure all project goals and objectives are aligned with the company vision."),
 					Li("Ensure all projects are aligned with the product goal and vision."),
 					Li("As an acting Scrum Master, coach, encourage, and enforce adoption of Scrum Theory, Pillars, Values, Artifacts, etc."),

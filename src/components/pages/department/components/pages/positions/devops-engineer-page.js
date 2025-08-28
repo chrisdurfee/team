@@ -17,9 +17,9 @@ export const DevOpsEngineerPage = () => (
 		},
 		[
 			// Responsibilities Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Responsibilities'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
 					Li("Design, implement, and maintain CI/CD pipelines, ensuring that our software solutions are built, tested, and deployed efficiently and reliably."),
 					Li("Collaborate with development, testing, and operations teams to identify and address bottlenecks, inefficiencies, and other areas for improvement in the software development lifecycle."),
 					Li("Monitor and manage our infrastructure, ensuring its availability, performance, and security."),
@@ -30,9 +30,9 @@ export const DevOpsEngineerPage = () => (
 				])
 			]),
 			// Goals Section
-			Section({ class: 'space-y-4 mt-12' }, [
+			Section({ class: 'flex flex-col gap-y-4 mt-12' }, [
 				H4({ class: 'text-2xl font-bold' }, 'Goals'),
-				Ul({ class: 'list-disc pl-6 space-y-1 text-muted-foreground' }, [
+				Ul({ class: 'list-disc pl-6 flex flex-col gap-y-1 text-muted-foreground' }, [
 					Li("Continuously improve the efficiency, reliability, and performance of our CI/CD pipelines and infrastructure."),
 					Li("Foster a culture of collaboration, knowledge sharing, and continuous improvement within the Technical Department."),
 					Li("Ensure that our software solutions are developed, tested, and deployed in a manner that supports our business objectives and product goals."),
